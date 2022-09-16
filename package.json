@@ -1,0 +1,13 @@
+{
+  "name": "tailwindproj",
+  "version": "1.0.0",
+  "description": "",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "build:css": "tailwindcss build -i src/styles.css -o dist/styles.css",
+    "tailwind": "npx tailwindcss -i src/styles.css -o dist/styles.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
